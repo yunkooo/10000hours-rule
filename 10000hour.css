@@ -18,13 +18,13 @@
     box-sizing: border-box;
 }
 
+input,button {
+    border: none;
+}
+
 body {
     background-color: #5B2386;
     font-family: "GmarketSans"; 
-}
-
-#app {
-    /* position: relative; */
 }
 
 .tit-timelaw {
@@ -56,22 +56,17 @@ body {
     margin: 0px auto;
     width: 600px;
     margin-top: 40px;
-
-    /* position: absolute;
-    left: 50%;
-    top: 25%;
-    transform: translate(-50%,0); */
 }
 
 .txt-desc {
     text-align: center;
     width: 493px;
     height: 96px;
-
-    background-image: url(./img/quote.png);
+    background-image: url(./img/quotes.png);
+    background-repeat: no-repeat;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 30px;
     color: white;
     margin: 0 auto;
     margin-top: 80px;
@@ -79,6 +74,7 @@ body {
 
 .tit-desc {
     font-weight: bold;
+    font-size: 24px;
 }
 
 .cont-inp {
@@ -112,6 +108,7 @@ body {
 }
 
 .btn-exc {
+    font-family: "GmarketSans"; 
     color: #5B2386;
     width: 565px;
     height: 66px;
@@ -140,7 +137,9 @@ body {
 .txt-wannabe {
     font-weight: normal;
     font-size: 24px;
+    line-height: 72px;
     color: white;
+    
 }
 
 .txt-wannabe strong {
