@@ -133,6 +133,7 @@ body {
 }
 
 .result {
+    
     text-align: center;
     margin-top: 147px;
     color: #ffffff;
@@ -218,7 +219,6 @@ footer {
     font-family: 'OTEnjoystoriesBA';
     font-size: 36px;
     color: #5B2386;
-
 }
 
 .btn-modal {

@@ -1,6 +1,7 @@
 const modal = document.querySelector(".modal");
 const btnModal = document.querySelector(".btn-go");
 const closeModal = document.querySelector(".btn-modal");
+const result = document.querySelector(".result");
 
 btnModal.addEventListener("click", e =>{
     modal.style.display = "initial"
@@ -9,4 +10,3 @@ btnModal.addEventListener("click", e =>{
 closeModal.addEventListener("click", e => {
     modal.style.display="none"
 })
-
